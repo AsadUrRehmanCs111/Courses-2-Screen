@@ -1,0 +1,45 @@
+.dashboard {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+.dashboard .dashboard_header {
+  background-image: linear-gradient(to right, #16893c, #a4d05c);
+  padding: 60px 0px;
+  color: #fff;
+}
+.dashboard .dashboard_header h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.courses {
+  padding: 20px;
+}
+.courses .card {
+  padding: 40px 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(245, 245, 245, 0.91);
+}
+
+.todos {
+  margin-top: 10px;
+}
+.todos_body {
+  background-color: #ececec;
+}
+.todos h3 {
+  font-weight: bold;
+}
+.todos_body {
+  padding: 20px 10px;
+}
+.todos_body .single_todo h4 {
+  font-weight: bold;
+  font-size: 30px;
+}
+@media screen and (max-width: 580px) {
+  .courses .card {
+    width: 50%;
+    margin: auto;
+  }
+}
